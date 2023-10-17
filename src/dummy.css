@@ -1,0 +1,21 @@
+.one{
+    width: 250px;
+    background-color: aqua;
+    height: 100%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.two{
+    width: 500px;
+    padding: 20px;
+    margin: 20px;
+    background-color: aquamarine;
+}
+
+.three{
+    width: 700px;
+    padding: auto;
+    margin:auto ;
+    background-color: blueviolet;
+}

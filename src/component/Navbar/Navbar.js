@@ -1,9 +1,11 @@
 import React from 'react'
+import './style.css'
 
 function Navbar() {
   return (
-    <div>
-      <h1>Navbar</h1>
+    <div className='navbar'>
+      <div id='user'>Hello Sharukh</div>
+      <input type='text' placeholder='Search' />
     </div>
   )
 }
