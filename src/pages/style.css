@@ -1,0 +1,77 @@
+.my-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.graph{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.bar-graph{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.bar-graph img{
+    width: 60vw;
+}
+
+.piechart{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.piechart img{
+    width: 24vw;
+}
+
+.table{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.table img{
+    width: 85vw;
+}
+
+@media (max-width: 850px){
+    .graph{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .bar-graph{
+        width: 91vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bar-graph img{
+        width: 80vw;
+    }
+
+    .piechart{
+        width: 91vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .piechart img{
+        width: 50vw;
+    }
+}

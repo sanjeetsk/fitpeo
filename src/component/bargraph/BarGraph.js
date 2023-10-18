@@ -1,9 +1,10 @@
 import React from 'react'
+import bargraph from '../../asset/bargraph.png';
 
 function BarGraph() {
   return (
-    <div>
-      <h1>BarGraph</h1>
+    <div className='bar-graph'>
+      <img src={bargraph} alt='bargraph' />
     </div>
   )
 }

@@ -1,9 +1,10 @@
 import React from 'react'
+import table from '../../asset/table.png'
 
 function Transaction() {
   return (
-    <div>
-      <h1>Transaction</h1>
+    <div className='table'>
+      <img src={table} alt='table' />
     </div>
   )
 }

@@ -1,0 +1,48 @@
+.my-card{
+    box-shadow: var(--shadow);
+    margin: 1rem;
+    border-radius: 0.5rem;
+    min-width: 200px;
+    flex: 1;
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    /* justify-content: center; */
+    gap: 10px;
+}
+
+.my-card img{
+    width: 100px;
+    height: 100px;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.desc .title{
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: gray;
+}
+
+.desc .amount{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.desc .net{
+    font-size: 0.6rem;
+}
+
+.desc .up{
+    color: green;
+    font-weight: 900;
+}
+
+.desc .down{
+    color: red;
+    font-weight: 900;
+}
