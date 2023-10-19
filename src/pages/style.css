@@ -1,3 +1,19 @@
+/* OtherPage */
+.otherPage{
+    margin: 3rem;
+}
+
+.otherPage h1{
+    font-size: 2rem;
+    text-align: center;
+    color: red;
+}
+
+
+
+
+/* Dashboard */
+
 .my-row{
     display: flex;
     justify-content: space-between;
